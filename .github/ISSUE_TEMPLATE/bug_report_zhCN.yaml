@@ -1,0 +1,63 @@
+name: 问题反馈
+description: 报告一个错误，以帮助我们改善 OPQBot
+
+body:
+- type: checkboxes
+  id: area
+  attributes:
+    label: 事先确认项
+    options:
+    - label: "我确定该反馈是新的，没有和 issue 列表中已有的问题重复"
+    - label: "我确定查阅过了 官方文档、OPQBot 文档 等所有的信息来源"
+    - label: "我确定我使用的 QPQBot 是最新版本"
+
+- type: input
+  id: OPQBot-version
+  attributes:
+    label: OPQBot 版本
+    description: 您下载了哪个版本的 OPQBot ？
+  validations:
+    required: true
+    
+- type: input
+  id: system-architecture
+  attributes:
+    label: 系统架构
+    description: 您使用的架构，例如 `linux/amd64`, `windows/amd64`
+  validations:
+    required: true
+    
+- type: textarea
+  id: bug-description
+  attributes:
+    label: 错误描述
+    description: 告诉我们您遇到了什么问题
+    placeholder: 包括有关您尝试的内容，预期发生的事情以及实际发生的事情的信息。越多的细节越好！
+  validations:
+    required: true
+    
+- type: textarea
+  id: log
+  attributes:
+    label: Logs
+    description: 在此处提供相关的错误日志（或者您可以使用屏幕截图来描述）
+    placeholder: 注意隐藏您的个人信息
+    
+- type: textarea
+  id: steps-to-reproduce
+  attributes:
+    label: 重现步骤
+    description: 如何复现它？对于我们来说，找到错误很重要
+    value: |
+      1. 
+      2. 
+      3. 
+      ...
+      
+- type: textarea
+  id: Others
+  attributes:
+    label: 其他
+    description: 你的现有解决方案或希望如何解决
+    placeholder: 填写补充内容
+

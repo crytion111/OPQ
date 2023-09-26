@@ -1,41 +1,26 @@
-## 🎈 打赏通道 🎈
+<p align="center">
+  <a href="https://opqbot.com/">
+    <img src="https://avatars.githubusercontent.com/u/82746709?s=400&u=ef97e904929e136049ef44552bd5bb2cbeaa38e6&v=4" width="200" height="200" alt="OPQBot">
+  </a>
+</p>
 
-🦀️🦀️ [OPQ Open Source Community](https://github.com/opq-osc)
+<div align="center">
 
-🦀️🦀️ 打赏规则
+# OPQBot
 
-🦀️🦀️ OPQ Open Source Community 项目发起人将获得100R 待兑现
+_🔮     全 🆕 内核 从 💖 出发 Golang 原生实现机器人框架  免费 🆓 闭源    🔮_  
 
-🦀️🦀️ OPQ Open Source Community 开源社区中的项目 按Star计算 1Star=1R 一人多个项目其中按项目Star最多结算
-
-🦀️🦀️ 所得打赏 公开公平 满足条件将发放给社区项目者
-
-🦀️🦀️ 打赏 >0R 上公开赞助榜可关联自己GitHub主页
-
-🦀️🦀️ 打赏 >20R 获得多Q一个月 
-
-🦀️🦀️ 打赏 >30R RSTWX框架1号一个月
-
-🦀️🦀️ 打赏 >60R RSTWX框架多号一个月
-
-🦀️🦀️ 上述打赏奖励仅限首次打赏,如有续费将会按比例发放给开发者
-
-🦀️🦀️ 所有软件使用行为请遵守法律法规
-
-<img src="https://camo.githubusercontent.com/39e00fdd4321a8da5d4fb737d0d15934c190c3e98f8217752768fd4e4fc59fd8/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30362f30362f763871426c3567506e5341723163472e6a7067" alt="Drawing" width="180px" />      <img src="https://camo.githubusercontent.com/b7a527da0c5ff7141f580d458993b48cd6968497ab55316cf25765af23b4b364/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30362f30362f735854384d3237794f346a455061782e6a7067" alt="Drawing" width="180px" />      <img src="https://camo.githubusercontent.com/a70f2c496a364240de21d5d5a68bf98d50e3153208436729612f6cc1265943a4/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30362f31302f4d7746495a726d41387663487035532e6a7067" alt="Drawing" width="180px" />
+</div>
 
 
-| 捐赠者          |  金额 |     留言    |     渠道  | 
-| -------------- | ---------- |----------- |----------- |
-| [stevestudio-yi](https://github.com/stevestudio-yi)          | 10R    |支付宝付款|支付宝二维码|
-| [Hellobaka](https://github.com/Hellobaka)          | 15R     |QQ付款|QQ二维码|
-| [DavidSciMeow](https://github.com/DavidSciMeow)          | 50R     |支付宝付款|支付宝二维码|
-| [Gooopw](https://github.com/Gooopw)          | 5R     |微信付款|微信赞赏码|
-| [icepie](https://github.com/icepie)          | 50R     |QQ付款|QQ二维码|
-| yuccff         | 20R     |微信付款|微信赞赏码|
-|     小包子    | 5R     |支付宝付款|支付宝二维码|
-| [CodFrm](https://github.com/CodFrm)       | 100R     |支付宝付款|支付宝二维码|
-| [Dandanla](https://github.com/Dandanla)          | 20R     |微信付款|微信转账|
-| [newkld](https://github.com/newkld)          | 21R     |支付宝|红包|
-| [yangpixi](https://github.com/yangpixi)          | 20R     |QQ付款|QQ二维码|
-| [ByboyCn](https://github.com/ByboyCn)          | 200R     |QQ付款|QQ转账|
+## 介绍
+
+OPQ RST UVW XYZ，无论是服务器、Mac、树莓派、电视盒子、路由器，AI 机器人框架 OPQ 为跨平台而生，轻松应对
+OPQBot 采用独特的插件机制(Lua插件全平台通用)，内置协程池，高效、稳定、迸发，提供 WebSocket，Web API，极低内存运行，稳定 0 崩溃，配置简单、一件启动、对小白🥬友好
+
+### 接口
+
+- [x] Lua API
+- [x] Web API
+- [x] 正向 WebSocket
+- [x] 反向 WebSocket
